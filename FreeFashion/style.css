@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 170px;
+  height: 60px;
+  background: #d99655;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  margin-bottom: 105px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background: #fff;
+  color: #d99655;
+}
+
+.title-small {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 15px;
+}
+
+.title-des {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 60px;
+}
+
+.hr {
+  border: 1px solid #eeeeed;
+  margin-bottom: 100px;
+}
+
+header {
+  background: #fff0e3;
+  padding: 40px 7px 0;
+}
+header nav {
+  margin: 0 auto;
+  background: #fff;
+  max-width: 1434px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 42px;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 94px;
+}
+header nav .buger {
+  display: none;
+}
+header nav span {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 10px 30px;
+  border-right: 1px solid #1e1c1a;
+  cursor: pointer;
+}
+header nav span:first-child {
+  padding-left: 0;
+}
+header nav span:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+header nav span:hover {
+  color: #d99655;
+}
+header .title {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 82px;
+  text-transform: uppercase;
+  max-width: 970px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #1e1c1a;
+  margin-bottom: 40px;
+}
+header .group-shoes {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  gap: 2.5641%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+header .group-shoes .shoe {
+  flex: 1 1 auto;
+  max-width: 100%;
+  display: flex;
+}
+header .group-shoes .shoe img {
+  max-width: 100%;
+}
+header .group-shoes .shoe1 {
+  max-height: 290px;
+}
+header .group-shoes .shoe3 {
+  max-height: 232px;
+}
+
+#sec-white {
+  padding: 140px 0;
+}
+#sec-white .collection {
+  padding: 0 20px;
+}
+#sec-white .collection .collection-content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+#sec-white .collection .collection-img-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+#sec-white .collection .collection-img-content img {
+  max-width: 100%;
+}
+#sec-white .arrivals {
+  padding: 0 20px;
+}
+#sec-white .arrivals .arrivals-content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+#sec-white .arrivals .collection-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec-white .arrivals .collection-content .collection-item {
+  border-bottom: 2px solid #eeeeed;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding: 0 20px 60px 10px;
+}
+#sec-white .arrivals .collection-content .collection-item .item-id {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#sec-white .arrivals .collection-content .collection-item img {
+  margin-bottom: 24px;
+  max-width: 370px;
+  width: 100%;
+}
+#sec-white .arrivals .collection-content .collection-item:hover {
+  border-bottom: 2px solid #1e1c1a;
+}
+#sec-white .arrivals .collection-content .collection-item:first-child {
+  padding-left: 0;
+}
+#sec-white .arrivals .collection-content .collection-item:last-child {
+  padding-right: 0;
+}
+#sec-white .arrivals .collection-content .item-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sec-white .arrivals .collection-content .item-info .info-left {
+  display: flex;
+  flex-direction: column;
+}
+#sec-white .arrivals .collection-content .item-info .info-left .item-title {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 40px;
+}
+#sec-white .arrivals .collection-content .item-info .info-left .item-price {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+#sec-white .arrivals .collection-content .item-info .fa-cart-shopping {
+  padding: 20px;
+  border-radius: 50%;
+  background: #fff0e3;
+}
+
+#sale {
+  background: #1e1c1a;
+  padding-top: 103px;
+}
+#sale .sale-top {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-right: 138px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#sale .sale-top .sale-top-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 447px;
+  font-weight: 400;
+  color: #ffffff;
+}
+#sale .sale-top .sale-top-left .sale-time {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff0e3;
+  margin-bottom: 11px;
+}
+#sale .sale-top .sale-top-left .sale-des1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  line-height: 28px;
+  margin-bottom: 22px;
+}
+#sale .sale-top .sale-top-left .sale-des2 {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#sale .sale-bot {
+  overflow: hidden;
+}
+#sale .sale-bot .sale-bot-content {
+  display: flex;
+  gap: 33px;
+  align-items: flex-end;
+  transform: translateX(-180px);
+}
+
+#trending {
+  padding: 140px 0 140px 20px;
+  overflow: hidden;
+}
+#trending .trending-content .trending-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: center;
+}
+#trending .trending-content .trending-top .trending-right {
+  display: flex;
+  gap: 35px;
+}
+#trending .trending-content .trending-top .trending-right img {
+  cursor: pointer;
+}
+#trending .trending-content .list-logo {
+  margin-left: calc((100vw - 1170px) / 2);
+  display: flex;
+  gap: 30px;
+}
+
+#purpose {
+  padding: 100px 20px 0;
+  background: #fff0e3;
+}
+#purpose .purpose-top {
+  width: 100%;
+  max-width: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: calc((100vw - 1170px) / 2);
+}
+#purpose .purpose-top .title-small {
+  margin-bottom: 20px;
+}
+#purpose .purpose-top .title-des {
+  margin-bottom: 20px;
+}
+#purpose .purpose-top .title-des-purpose-2 {
+  margin-bottom: 40px;
+}
+#purpose .purpose-top button {
+  margin: unset;
+}
+#purpose .purpose-img {
+  display: flex;
+  gap: 2.5641%;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+#purpose .purpose-img img {
+  width: 100%;
+  max-width: 100%;
+}
+#purpose .purpose-img .purpose-img-div {
+  display: flex;
+}
+
+#visit {
+  overflow: hidden;
+}
+#visit .visit-top {
+  transform: translateX(-230px);
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding: 60px 0 100px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+#visit .visit-top .text-visit {
+  font-family: "Bebas Neue";
+  font-size: 56px;
+  line-height: 60px;
+}
+#visit .visit-top .fa-play {
+  background: #fff0e3;
+  padding: 34px;
+  border-radius: 50%;
+}
+#visit .visit-bot {
+  padding-bottom: 140px;
+}
+#visit .visit-bot .visit-bot-title {
+  padding: 0 20px;
+}
+#visit .visit-bot .visit-bot-title-content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#visit .visit-bot .visit-bot-title-content .info-ig {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 28px;
+  color: #504c48;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+#visit .visit-bot .visit-img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+@media screen and (max-width: 1210px) {
+  #trending .trending-content .list-logo,
+#purpose .purpose-top {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
