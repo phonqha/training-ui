@@ -501,6 +501,7 @@ footer .copyright {
   header nav {
     min-height: 59px;
     margin-bottom: 71px;
+    padding: 0 13px;
   }
   header nav .buger {
     display: flex;
@@ -552,6 +553,7 @@ footer .copyright {
     gap: 34px;
     align-items: flex-start;
     margin-bottom: 60px;
+    padding-right: 0;
   }
   #sale .sale-top button {
     margin-bottom: 0;

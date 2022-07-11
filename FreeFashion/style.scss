@@ -507,6 +507,7 @@ footer {
     header nav {
         min-height: 59px;
         margin-bottom: 71px;
+        padding: 0 13px;
         .buger {
             display: flex;
             padding: 6px;
@@ -565,6 +566,7 @@ footer {
             gap: 34px;
             align-items: flex-start;
             margin-bottom: 60px;
+            padding-right: 0;
             button {
                 margin-bottom: 0;
             }
